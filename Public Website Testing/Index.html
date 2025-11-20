@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html style="background-color:deeppink;">
+
+        <video id="Pizza" width="0px" height="0px">
+            <source src="Sources/Pepperoni Video.mp4">
+        </video>
+
+        <head>
+
+            <meta charset="UTF-8">
+
+            <audio controls autoplay loop src="Sources/HOME - Resonance.mp3">
+                
+            </audio>
+
+            <title>
+                Public Website Testing
+            </title>
+
+        </head>
+
+        <body>
+
+            <img src="Sources/I_eat_children_from_moderators.jpg" height="400" >
+
+            <video controls>
+                <source src="Sources/Bad Apple.mp4">
+            </video>
+
+            <video controls>
+                <source src="Sources/Pepperoni Video.mp4">
+            </video>
+
+            <button onclick="Clicked()" style="width:100px;height:40px;background-color:deepskyblue;color:blue;border:0px;border-radius:10px;cursor:pointer;">
+                Dont Click me
+            </button>
+
+            <p id="IWC">
+                 
+            </p>
+
+            <script>
+                function Clicked(){
+                    document.getElementById("IWC").innerHTML="WHY DID YOU CLICK ME?!?!";
+                }
+            </script>
+
+        </body>
+
+        <body>
+
+            <p style="font-size:20px;color:red;">
+            Pepperoni Pizza Button
+            </p>
+
+            <img style="cursor:pointer;" onclick="PepperoniPizza()" src="Sources/Pepperoni Pizza.jpg">
+
+                <script>
+                    function PepperoniPizza(){
+                        document.getElementById("Pizza").play();
+                    }
+                </script>
+
+        </body>
+
+    </html>
