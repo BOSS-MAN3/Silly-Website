@@ -1,1 +1,2 @@
 This is part of me releasing my cursed stuff into the world
+(Note: Any Copyrighted material such as videos, music, images, and others forms of media that is not owned or permitted to me is here purely for entertainment purposes)
